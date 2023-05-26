@@ -1,0 +1,253 @@
+.col-md-1 {
+    width: 10%;
+    float: left;
+}
+
+.col-md-2 {
+    width: 16%;
+    float: left;
+}
+
+.col-md-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-md-4 {
+    width: 33%;
+    float: left;
+}
+
+.col-md-5 {
+    width: 42%;
+    float: left;
+}
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-md-7 {
+    width: 58%;
+    float: left;
+}
+
+.col-md-8 {
+    width: 66%;
+    float: left;
+}
+
+.col-md-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-md-10 {
+    width: 83%;
+    float: left;
+}
+
+.col-md-11 {
+    width: 90%;
+    float: left;
+}
+
+.col-md-12 {
+    width: 100%;
+    float: left;
+}
+
+.col-md-1-5 {
+    width: 20%;
+    float: left;
+}
+
+.InTitle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 24px;
+    color: #317eac;
+    text-align: center;
+}
+
+.PurBox {
+    padding: 0px;
+}
+
+div {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.InCtrl {
+    display: none;
+}
+
+.storeTitle{
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+    height: 55px;
+}
+
+.Serial{
+    margin-top:25px;
+    text-align: right;
+    font-size: 24px;
+    height: 75px;
+    color: crimson;
+}
+
+.title1{
+    font-size: 30px;
+}
+
+.title2 , .title3{
+    font-size: 24px;
+}
+
+.title4{
+    font-size: 28px;
+    padding-top:10px;   
+    text-align: center;
+}
+
+.empText{
+    font-size: 24px;
+    text-align: center;
+}
+
+.empText2{
+    font-size: 24px;
+    text-align: left;
+}
+
+.empTitle{
+    font-size: 18px;
+}
+
+.signText{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.webbox{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+}
+.underlineText{ 
+    border-bottom: 1px solid black;   
+    -webkit-box-align: center;
+    -webkit-box-flex: 2;
+    -moz-box-align: center;
+    -moz-box-flex: 2;
+    -ms-flex-align: center;
+    -ms-flex: 2;
+}
+
+.underlineText2{ 
+    border-bottom: 1px solid black;   
+    -webkit-box-align: center;
+    -webkit-box-flex: 3;
+    padding-left: 10px;
+    -moz-box-align: center;
+    -moz-box-flex: 3;
+    -ms-flex-align: center;
+    -ms-flex: 3;
+}
+
+.underlineText3{ 
+    border-bottom: 1px solid black;   
+    -webkit-box-align: center;
+    -webkit-box-flex: 5;
+    -webkit-line-clamp: 3;
+    padding-left: 10px;
+    -moz-box-align: center;
+    -moz-box-flex: 5;
+    -ms-flex-align: center;
+    -ms-flex: 5;
+}
+
+.boxNoLine{
+    border: 0;
+    -webkit-box-align: center;
+    -webkit-box-flex: 0;
+    -moz-box-align: center;
+    -moz-box-flex: 0;
+    -ms-flex-align: center;
+    -ms-flex: 0;
+}
+
+
+/* Table */
+
+
+.PrintStyle table tr th:nth-child(1) {
+    width: 70%;
+}
+
+.PrintStyle table tr th:nth-child(2) {
+    width: 10%;
+}
+
+.PrintStyle table tr th:nth-child(3) {
+    width: 20%;
+}
+
+.PrintStyle table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.PrintStyle table tr td:nth-child(3) {
+    text-align: right;
+}
+
+
+.PrintStyle table tr .PrintProName,
+.PrintStyle table tr .PrintFName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: initial;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    border:0;
+}
+
+.PrintStyle table tr th{
+    text-align: center;
+    vertical-align: middle;
+}
+.PrintStyle table tr td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.PrintStyle table th,
+.PrintStyle table td,
+.PrintStyle table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 8px;
+    line-height: 1.42857143;
+}
+
+.PrintStyle table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+
+.tFoot{
+    left: 25%;
+    position:relative;
+}
+
+/* Table */

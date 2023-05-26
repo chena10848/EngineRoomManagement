@@ -1,0 +1,400 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.MainBox{
+    border: 1px solid;
+    border-radius: 4px;
+    padding-bottom: 0.6em;
+}
+
+.InTitle{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.InContent input , .SearchBox input , .PurBox input{
+    width: 100%;
+}
+
+.ItemTitle{
+    padding: 0 !important;
+    text-align:center;   
+}
+
+.ItemContent{
+    padding: 0 !important;
+}
+
+.InDate{
+    line-height: inherit !important;
+}
+
+.NCG{
+    cursor: not-allowed !important;
+    background-color: #ccc !important;
+}
+
+.NCG2{
+    cursor: not-allowed !important;
+    border-bottom: 0px !important;
+}
+
+.Interval{
+    height: 1em;
+}
+
+.OrThead{
+    border-top: 2px solid #FF7E00;
+    border-bottom: 1px solid #FF7E00;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.InCtrl{
+    display: flex;
+    justify-content: center;
+}
+
+.SearchBox{
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 15%;
+    padding: 0.7em 0;
+    display: none;
+}
+
+.PBox{
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 7%;
+    padding: 0.7em 0.5em;
+    height: 88%;
+    display: none;
+}
+
+.PDBox{
+    max-height: 92%;
+    overflow-y: scroll;
+}
+
+.PDCtrl{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.PrintD{
+    border: 1px solid blue;
+    padding: 2px !important;
+    margin-bottom: 1.5em;
+}
+
+.PEnd{
+    border: 2px solid black;
+}
+
+.PEnd , .PEnd div{
+    padding: 0 !important;
+}
+
+.PEDT{
+    height: 60px;
+    border-right: 4px double black;
+    text-align: center;
+    line-height: 60px;
+}
+.PED{
+    border-right: 1px solid black;
+}
+.PEDE{
+    height: 20px;
+    line-height: 20px;
+}
+.PEAC{
+    height: 30px;
+    border: 1px solid black;
+    line-height: 30px;
+}
+.PEAC div:nth-child(2n+1){
+    text-align: center;
+    border-right: 2px solid black;
+}
+.PEAC div:nth-child(2n){
+    text-align: right;
+}
+.PEAC span{
+    margin-right: 8px;
+}
+
+
+.SearchBox input , .PurBox input , .ImpIVBox input{
+    height: 24px !important;
+}
+
+.SearchBox .col-md-4{
+    padding: 0 !important;
+}
+
+.PurBox{
+    border: 4px solid #AAAAAA;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    padding: 0.7em 0;
+    z-index: 1;
+    max-height: 88%;
+    overflow-y: auto;
+    display: none;
+}
+
+.PurTable{
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 22em;
+}
+
+.PurBody{
+    margin-top: 1.2em;
+}
+
+.PurTR{
+    text-align: right;
+}
+
+.smallf{
+    font-size: 8px;
+}
+
+
+
+/* table 樣式 */
+/* .InTable input{
+    width: 100%;
+}
+
+.InTable th:nth-child(1) , .InTable td:nth-child(1){
+    width: 14%;
+}
+.InTable th:nth-child(2) , .InTable td:nth-child(2){
+    width: 14%;
+}
+.InTable th:nth-child(3) , .InTable td:nth-child(3){
+    width: 12%;
+}
+.InTable th:nth-child(4) , .InTable td:nth-child(4){
+    width: 12%;
+}
+.InTable th:nth-child(5) , .InTable td:nth-child(5){
+    width: 6%;
+}
+.InTable th:nth-child(6) , .InTable td:nth-child(6){
+    width: 6%;
+}
+.InTable th:nth-child(7) , .InTable td:nth-child(7){
+    width: 6%;
+} */
+/* table 樣式 */
+
+
+/* Input , TextArea 樣式 */
+.InTicket input , .SearchBox input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.InTicket textarea , .SearchBox textarea{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    resize: none;
+    height: 5em;
+}
+
+.InTicket input:focus , .InTicket textarea:focus , .SearchBox input:focus , .SearchBox textarea:focus{
+    box-shadow: 0 0 5px rgba(47,164,231, 1);
+    border: 1px solid rgba(47,164,231, 1);
+}
+/* Input , TextArea 樣式 */
+
+/* 效果 */
+.bubble{
+  animation: animateElement linear .3s;
+  animation-iteration-count: 1;
+  width:100%;
+ }
+
+@keyframes animateElement{
+  0% {
+    opacity:0;
+    transform:  translate(0px,10px);
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px);
+  }
+}
+/* 效果 */
+
+/*bootstrap table header fixed*/
+
+.InTableBox table{
+    width: 100%;
+}
+
+.InTableBox thead, .InTableBox tbody, .InTableBox tr, .InTableBox td, .InTableBox th{ display: block; }
+
+.InTableBox tr:after{
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.InTableBox thead th{
+    height: 30px;
+}
+
+.InTableBox tbody td{
+    height: 30px;
+}
+
+.InTableBox tbody{
+    height: 40em;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.InTableBox thead{
+    width: 98.4%;
+}
+
+
+.InTableBox tbody td,.InTableBox thead th{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    float: left;
+}
+
+.InTableBox table tr td:nth-child(1) , .InTableBox table tr th:nth-child(1){
+    width: 11%;
+}
+.InTableBox table tr td:nth-child(2) , .InTableBox table tr th:nth-child(2){
+    width: 18%;
+}
+.InTableBox table tr td:nth-child(3) , .InTableBox table tr th:nth-child(3){
+    width: 9%;
+}
+.InTableBox table tr td:nth-child(4) , .InTableBox table tr th:nth-child(4){
+    width: 8%;
+}
+.InTableBox table tr td:nth-child(5) , .InTableBox table tr th:nth-child(5){
+    width: 10%;
+}
+.InTableBox table tr td:nth-child(6) , .InTableBox table tr th:nth-child(6){
+    width: 11%;
+}
+.InTableBox table tr td:nth-child(7) , .InTableBox table tr th:nth-child(7){
+    width: 11%;
+}
+.InTableBox table tr td:nth-child(8) , .InTableBox table tr th:nth-child(8){
+    width: 11%;
+}
+.InTableBox table tr td:nth-child(9) , .InTableBox table tr th:nth-child(9){
+    width: 11%;
+}
+
+.InTableBox table tr th , .n1 , .n2 {
+    text-align: center !important;
+}
+.InTableBox table{
+    font-size: 10px !important;
+}
+.n3 , .n4 , .n5 , .n6 , .n7 , .n8 , .n9{
+    text-align: right !important;
+}
+
+.InTableBox table input{
+    width: 100% !important;
+}
+
+.RDetail{
+    border-top: 1px solid #0000FF !important;
+}
+.RDetail2{
+    border-top: 0px !important;
+}
+.RAll{
+    border-top: 1px solid #000000 !important;
+    margin-bottom: 6px;
+}
+.RAll2{
+    border-top: 1px solid #BD2D30 !important;
+    margin-bottom: 6px;
+    border-bottom: 1px double #BD2D30 !important;
+}
+.RAll td:nth-child(1) , .RAll2 td:nth-child(1){
+    width: 80% !important;
+    text-align: right;
+}
+.RAll td:nth-child(2) , .RAll2 td:nth-child(2){
+    width: 20% !important;
+    text-align: right;
+}
+
+
+
+/*---- BS 客製 ----*/
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-1-5 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+

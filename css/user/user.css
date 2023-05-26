@@ -1,0 +1,29 @@
+.MainBox {
+    border: 1px solid;
+    border-radius: 4px;
+    padding-bottom: 0.6em;
+}
+
+.InTitle {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    height: 5em;
+}
+
+.NCG {
+    cursor: not-allowed !important;
+    background-color: #ddd !important;
+}
+
+.NCG2 {
+    cursor: not-allowed !important;
+    border-bottom: 0px !important;
+    border: 0px;
+}
+
+input {
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}

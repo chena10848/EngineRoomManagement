@@ -1,0 +1,45 @@
+/* printTable */
+
+.OrThead {
+    table-layout: fixed;
+}
+
+.OrThead th .titleId {
+    width: 10% !important;
+    text-align: center;
+}
+
+.OrThead th .titleName {
+    width: 10% !important;
+    text-align: center;
+}
+
+.OrThead th .titleDatetime {
+    width: 30% !important;
+    text-align: center;
+}
+
+.OrThead th .titleReson {
+    width: 20% !important;
+    text-align: center;
+}
+
+.OrThead th .titleManager {
+    width: 30% !important;
+    text-align: center;
+}
+
+.OrThead th,
+.OrThead td {
+    width: 100%;
+    text-align: center;
+}
+
+.OrThead .company {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.OrThead .title {
+    text-align: center;
+}

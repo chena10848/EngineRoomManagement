@@ -1,0 +1,86 @@
+.MainBox {
+    border: 1px solid;
+    border-radius: 4px;
+    padding-bottom: 0.6em;
+}
+
+.MainBox2 {
+    border: 1px solid;
+    border-radius: 4px;
+    padding-bottom: 0.6em;
+    display: none;
+}
+
+.InTitle {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    height: 5em;
+}
+
+body {
+    /* background-color: #eee; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.height {
+    height: 100vh;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue;
+}
+
+.InTicket input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.NCG {
+    cursor: not-allowed !important;
+    background-color: #ddd !important;
+}
+
+.NCG2 {
+    cursor: not-allowed !important;
+    border-bottom: 0px !important;
+    border: 0px;
+}
+
+input {
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}

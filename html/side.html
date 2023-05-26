@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<div class="col-sm-2 col-lg-2">
+    <div class="sidebar-nav">
+        <div class="nav-canvas">
+            <div class="nav-sm nav nav-stacked">
+
+            </div>
+            <ul class="nav nav-pills nav-stacked main-menu">
+                <li class="nav-header">Main</li>
+                <li><a class="ajax-link" href="index.php"><i class="glyphicon glyphicon-home"></i><span>首頁</span></a>
+                </li>
+
+                <li class="accordion" id="li_1">
+                    <a href="#"><i class="glyphicon glyphicon-edit"></i><span> 機房管理</span></a>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li id="LPrecord"><a href="checkinrecord.php">進出理由填寫</a></li>
+                        <li id="LPallRecord"><a href="checkinAllrecord.php">進出機房報表列印</a></li>
+                        <li id="LPmanagerreview"><a href="managerreview.php">主管審核</a></li>
+                    </ul>
+                </li>
+
+                <li class="accordion" id="li_2">
+                    <a href="#"><i class="glyphicon glyphicon-cog"></i><span> 使用者設定</span></a>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li id="LUser"><a href="./user.php">個人資料設定</a></li>
+                        <li id="LUserpasswordset"><a href="./userpasswordset.php">密碼修改</a></li>
+                    </ul>
+                </li>
+                <li class="accordion" id="li_3">
+                    <a href="#"><i class="glyphicon glyphicon-user"></i><span> 管理員設定</span></a>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li id="LAdminsetuser"><a href="adminsetuser.php">使用者帳號設定</a></li>
+                        <li id="LGroup"><a href="group.php">群組管理設定</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
