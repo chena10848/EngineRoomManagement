@@ -19,6 +19,7 @@ session_start();
 
     $exists_group = true;  
 
+    if(isset($_SESSION['B0002']) == false) echo "<script type = 'text/javascript'> window.location.href = 'login.php'; </script>" ;
     if($_SESSION['B0002'] == 0) $exists_group = false;
     if(!$exists_group) {
         echo "<script> alert('無權限開啟此程式，請聯絡管理人員，謝謝。'); </script>" ;

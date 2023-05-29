@@ -55,7 +55,7 @@
             break;
         case 'checkinrecord':
 
-            $userAccount = $_POST['userAccount'];
+			$id = $_SESSION['ID'];
             $startDate = $_POST['startDate'] . ' 00:00:00';
             $endDate = $_POST['endDate'] . ' 23:59:59';
 
@@ -65,7 +65,7 @@
 				
 				$sql = "SELECT * FROM Checkinrecord INNER JOIN User ON Checkinrecord.cr01 = User.us03 WHERE cr01 like :t1 AND cr02 BETWEEN :t2 AND :t3 AND us13 = '1'";
 				$stmt = $pdo->prepare($sql);
-				$stmt->execute(array(":t1" => $userAccount , ":t2" => $startDate , ":t3" => $endDate));
+				$stmt->execute(array(":t1" => $id , ":t2" => $startDate , ":t3" => $endDate));
 				$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 				
